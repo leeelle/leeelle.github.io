@@ -1,0 +1,29 @@
+body {
+	background: url("assets/stripes.png"), url("assets/background.jpg") #525b6a;
+	background-repeat: repeat-x, no-repeat;
+	background-attachment: fixed;
+	background-position: top, right bottom;
+
+	font-family: helvetica, arial, sans-serif;
+	color: #ffffff;
+
+}
+
+header {
+	margin: 20% 10%;
+}
+
+hr {
+	border-color: #f78f8f;
+	text-align: left;
+    width: 40px;
+
+    margin-top: 2.5em;
+    margin-bottom: 1.7em;
+    margin-left: 0;
+
+}
+
+p{
+	margin-bottom: 1.7em;
+}
