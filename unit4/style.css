@@ -14,12 +14,11 @@ div {
 
 	border: 2px solid white;
 	width: 150px;
-	margin: auto; 
-	margin-bottom: 28em;
+	margin: auto auto 28em auto;
 
 }
 
-.container {
+.wrapper {
 
 	width: 98%;
 	min-height: 100%;
@@ -28,10 +27,7 @@ div {
 	z-index: 10;
 	border: 3px solid white;
 
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 0.8em;
-	margin-top: 0.8em;
+	margin: auto auto 0.8em 0.8em;
 	padding-top: 0;
 
 }
@@ -69,14 +65,14 @@ p {
 
 }
 
-p.article {
+#article {
 	position: relative;
 	top: -4.8em;
 
 	margin-bottom: 2em;
 }
 
-p.info {
+#info {
 
 	position: relative;
 	bottom: 1em;
