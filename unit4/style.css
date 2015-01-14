@@ -1,36 +1,40 @@
 body {
 
 	background: url("Assets/background.jpg");
-	background-repeat: no-repeat;
 	background-size: cover;
-
+	background-attachment: fixed;
 
 	color: #ffffff;
 	text-align: center;
 
 }
 
-div {
+.border {
+
+	width: 98%;
+	height: 100vh;
+/*	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+*/	z-index: 10;
+	border: 3px solid white;
+
+	margin: 0.8em auto;
+	padding-top: 0;
+}
+
+
+.button {
 
 	border: 2px solid white;
 	width: 150px;
-	margin: auto auto 28em auto;
+	margin: 0 auto 0 auto;
+	
+	position: relative;
+	top: 20vh;
 
 }
 
-.wrapper {
-
-	width: 98%;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	z-index: 10;
-	border: 3px solid white;
-
-	margin: auto auto 0.8em 0.8em;
-	padding-top: 0;
-
-}
 
 h1 {
 
@@ -41,7 +45,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: -0.5px;
 
-	margin-top: -34px;
+	margin-top: -30px;
 
 }
 
@@ -62,23 +66,21 @@ p {
 
 	font-size: 14px;
 	font-weight: normal;
+	line-height: 90%;
 
 }
 
 #article {
 	position: relative;
-	top: -4.8em;
+	top: -5em;
 
-	margin-bottom: 2em;
+	line-height: 105%;
+
 }
 
-#info {
+footer {
 
 	position: relative;
-	bottom: 1em;
+	bottom: -50vh;
 
-}
-
-br {
-	line-height: 120%;
 }
